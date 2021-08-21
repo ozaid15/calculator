@@ -1,0 +1,90 @@
+#container{
+    height: 400px;
+    width: 600px;
+    background-color: lightgrey;
+    margin: auto;
+}
+#heading{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 40%;
+    font-weight: bold;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+}
+#output-screen{
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    background-color: white;
+    min-height: 50px;
+    height: auto;
+    color: orange;
+    text-align: right;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#keypad{
+    font-weight: bold;
+}
+#row1{
+    display: flex;
+    position: relative;
+    top: 40px;
+    margin: 10px;
+}
+#row2{
+    display: flex;
+    position: relative;
+    top: 40px;
+    margin: 10px;
+    margin-top: -10px;
+}
+#row3{
+    display: flex;
+    position: relative;
+    top: 40px;
+    margin: 10px;
+    margin-top: -10px;
+}
+.btn{
+    height: 48px;
+    width: 144px;
+    margin: 1px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn0{
+    height: 48px;
+    width: 289px;
+    margin: 1px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.operator-btn{
+    height: 48px;
+    width: 144px;
+    margin: 1px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: orange;
+}
+.btn0:hover{
+    background-color: orange;
+}
+.operator-btn:hover{
+    background-color: orange;
+}
